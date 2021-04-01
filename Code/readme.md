@@ -1,0 +1,12 @@
+The files in this directory are as follows:
+ - Basic_LMS.m - Implmentation of the basic LMS algorithm and its analysis for different step sizes
+ - Basic_NLMS.m - Implmentation of the basic NLMS algorithm and its analysis for different step sizes
+ - Filtered_X_LMS.m - Implmentation of the filtered-X LMS algorithm and its analysis for different step sizes
+ - Filtered_X_NLMS.m - Implmentation of the filtered-X NLMS algorithm and its analysis for different step sizes
+ - filtered signal.wav - Output from realnoise.m which is the signal after noise cancellation on noisysignal.wav
+ - filtered signal1.wav - Output from realnoise.m which is the signal after noise cancellation on noisysignal1.wav
+ - anc.wav - Voice sample used for testing the active noise cancellation in realnoise.m 
+ - moonlight_sonata_bethoven.wav - Audio sample used for testing the active noise cancellation in realnoise.m (Generated from synthesizer done in lab 5)
+ - noisysignal.wav - The noisy signal in realnoise.m before it is filtered (moonlight_sonata_bethoven.wav with noise)
+ - noisysignal1.wav - The noisy signal in realnoise.m before it is filtered (anc.wav with noise)
+ - realnoise.m - Use of NLMS to remove noise from a noisy signal which consists of an audio clip along with randomly generated noise
