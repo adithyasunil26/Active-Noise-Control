@@ -12,7 +12,6 @@ Acoustic noise creates a major problem in industrial equipment and automobiles. 
 Please check the [final report](https://github.com/adithyasunil26/Active-Noise-Control/blob/main/Final%20Report.pdf) for more more detailed information about the project.
 
 The contents of this repository are as follows
-.
 
 ```bash
 
@@ -63,6 +62,9 @@ The contents of this repository are as follows
     │   └── u=0.01.jpg
     └── readme.md
 ```
+
+The `Code` directory consists of all the MATLAB scripts written for the implementations of various ANC algorithms. The `Result` directory consists of the obtained results sorted by algorithm.
+
 
 ## References
 1. [Active Noise Control: A Tutorial Review by Sen M Kuo and Dennis R Morgan](https://ieeexplore.ieee.org/document/763310)
